@@ -15,7 +15,7 @@ In order to run with animations :
 
 `python3 chaos_game.py -a True`
 
-NOTE : When animations is True the drawing process is sigbificantly slowed.
+NOTE : When animations is True the drawing process is significantly slowed.
 
 ### Seirpinski Triangle and Vicsek Fractal
 <p float="left">
@@ -26,8 +26,8 @@ NOTE : When animations is True the drawing process is sigbificantly slowed.
 ### Square Fractal
 
 <p float="left">
-  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Square.PNG" width=400 height=400/>
-  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Square1.PNG" width=400 height=400/>
+  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Square.PNG" width=450 height=450/>
+  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Square1.PNG" width=450 height=450/>
 </p>
 
 ### Pentagon Fractal
