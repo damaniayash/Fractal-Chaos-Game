@@ -1,6 +1,6 @@
 # Play the Chaos Game
 
-### Create beautiful fractals from plotting random points, creating chaos eventually leading to ordered structure.
+### Create beautiful fractals from plotting random points, creating chaos, eventually leading to ordered structure.
 
 ### Requirements
 - python3
@@ -15,7 +15,7 @@ In order to run with animations :
 
 `python3 chaos_game.py -a True`
 
-NOTE : When animations is True the drawing process is significantly slowed.
+NOTE : When animations is True the drawing process is significantly slower.
 
 ### Seirpinski Triangle and Vicsek Fractal
 <p float="left">
