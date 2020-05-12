@@ -17,7 +17,7 @@ In order to run with animations :
 
 NOTE : When animations is True the drawing process is significantly slower.
 
-### Seirpinski Triangle and Vicsek Fractal
+### Sierpinski Triangle and Vicsek Fractal
 <p float="left">
   <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Triangle.PNG" width=500 height=400/>
   <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Viscek.PNG" width=400 height=400/>
