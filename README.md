@@ -1,6 +1,6 @@
-# Fractal-Chaos-Game
+# Play the Chaos Game
 
-## Create beautiful fractals from randomness using Chaos Game.
+## Create beautiful fractals from random events creating chaos eventually leading to ordered structure.
 
 ### Requirements
 - python3
