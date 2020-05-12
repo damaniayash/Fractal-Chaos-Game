@@ -9,9 +9,13 @@
 ### Instructions
 In order
 ### Seirpinski Triangle
-<img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Triangle.PNG" width=500 height=400>
+<img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Triangle.PNG" width=500 height=400/>
+
 ### Square Fractal
-<img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Square.PNG" width=400 height=400><img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Square1.PNG" width=400 height=400>
+<p float="left">
+  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Square.PNG" width=400 height=400/>
+  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Square1.PNG" width=400 height=400/>
+</p>
 ### Pentagon Fractal
 <img src=https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Pentagon.PNG>
 <img src=https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Pentagon1.PNG>
