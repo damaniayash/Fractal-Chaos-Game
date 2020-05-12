@@ -12,13 +12,12 @@ import argparse
 import random
 
 parser = argparse.ArgumentParser() 
-parser.add_argument("-a", "--Animation", type = bool, default = False, help = "Animate or not to Animate")
+parser.add_argument("-a", "--Animation",type = bool,default = False, help = "Animate or not to Animate")
 args = parser.parse_args()
 if args.Animation == True:
 	dot_size = 3
 else:
 	dot_size = 2 
-
 
 # Drawing polygons.
 # Returns a list of co-ordinates representing vertices of the polygon.
@@ -55,8 +54,9 @@ def chaosGameTriangle(iterations:int, distFactor:int):
 		new_x,new_y = ((curr_x + vertex_set[vertex][0]) * distFactor) , ((curr_y + vertex_set[vertex][1]) * distFactor)
 		turtle.setpos(new_x,new_y)
 		turtle.dot(dot_size,'white')
+	print('Completed, close window now')
 	turtle.done()
-
+	
 # Modified for Square fractals
 def chaosGameSquare(iterations:int, distFactor:float):
 	vertex_set=drawPolygon(4,530,[-265,-265])
@@ -79,6 +79,7 @@ def chaosGameSquare(iterations:int, distFactor:float):
 		new_x,new_y = ((curr_x + vertex_set[vertex][0]) * distFactor) , ((curr_y + vertex_set[vertex][1]) * distFactor)
 		turtle.setpos(new_x,new_y)
 		turtle.dot(dot_size,'white')
+	print('Completed, close window now')
 	turtle.done()
 
 def chaosGameVicsek(iterations:int, distFactor:float):
@@ -100,9 +101,8 @@ def chaosGameVicsek(iterations:int, distFactor:float):
 		new_x,new_y = ((curr_x + vertex_set[vertex][0]) * distFactor) , ((curr_y + vertex_set[vertex][1]) * distFactor)
 		turtle.setpos(new_x,new_y)
 		turtle.dot(dot_size,'white')
+	print('Completed, close window now')
 	turtle.done()
-
-
 
 #Modified for Pentagon Fractal
 def chaosGamePentagon(iterations:int,distFactor:float):
@@ -126,6 +126,7 @@ def chaosGamePentagon(iterations:int,distFactor:float):
 		new_x,new_y = ((curr_x + vertex_set[vertex][0]) * distFactor) , ((curr_y + vertex_set[vertex][1]) * distFactor)
 		turtle.setpos(new_x,new_y)
 		turtle.dot(dot_size,'white')
+	print('Completed, close window now')
 	turtle.done()
 
 def chaosGameSquare1(iterations:int, distFactor:float):
@@ -154,15 +155,16 @@ def chaosGameSquare1(iterations:int, distFactor:float):
 				vertex=random.choice([0,2])
 			if prev_vertex == 3:
 				vertex=random.choice([1,3])
-		print(prev_vertex)
-		print(pprev_vertex)
+		#print(prev_vertex)
+		#print(pprev_vertex)
 		curr_x,curr_y = turtle.pos()
 		# New pointed created at a Fixed distance between current co-ordinate and random point
 		new_x,new_y = ((curr_x + vertex_set[vertex][0]) * distFactor) , ((curr_y + vertex_set[vertex][1]) * distFactor)
 		turtle.setpos(new_x,new_y)
 		turtle.dot(dot_size,'white')
+	print('Completed, close window now')
 	turtle.done()
-
+	
 def chaosGamePentagon1(iterations:int, distFactor:float):
 	vertex_set=drawPolygon(5,350,[-180,-265])
 	#Set Random Initial Starting Point
@@ -191,14 +193,16 @@ def chaosGamePentagon1(iterations:int, distFactor:float):
 				vertex=random.choice([0,1])
 			if prev_vertex == 4:
 				vertex=random.choice([1,2])
-		print(prev_vertex)
-		print(pprev_vertex)
+		#print(prev_vertex)
+		#print(pprev_vertex)
 		curr_x,curr_y = turtle.pos()
 		# New pointed created at a Fixed distance between current co-ordinate and random point
 		new_x,new_y = ((curr_x + vertex_set[vertex][0]) * distFactor) , ((curr_y + vertex_set[vertex][1]) * distFactor)
 		turtle.setpos(new_x,new_y)
 		turtle.dot(dot_size,'white')
+	print('Completed, close window now')
 	turtle.done()
+	
 def chaosGameHexagon(iterations:int,distFactor:float):
 	vertex_set=drawPolygon(6,300,[-155,-260])
 	#Set Random Initial Starting Point
@@ -220,7 +224,9 @@ def chaosGameHexagon(iterations:int,distFactor:float):
 		new_x,new_y = ((curr_x + vertex_set[vertex][0]) * distFactor) , ((curr_y + vertex_set[vertex][1]) * distFactor)
 		turtle.setpos(new_x,new_y)
 		turtle.dot(dot_size,'white')
+	print('Completed, close window now')
 	turtle.done()
+	
 def barnsleyFern(iterations:int):
 	turtle.screensize(canvwidth=300, canvheight=300, bg='black')
 	x = 0
@@ -246,12 +252,14 @@ def barnsleyFern(iterations:int):
 		else:
 			x = -0.15*curr_x + 0.28*curr_y
 			y = 0.26*curr_x + 0.24*curr_y + 0.44
+	print('Completed, close window now')
 	turtle.done()
+
 
 
 #Driver
 
-choice = int(input('Press\n1.Sierpinski Triangle\n2.Square Fractal\n3.Pentagon Fractal\n4.Vicsek Fractal\n5.Hexagonal Fractal\n6.Another Square Fractal\n7.Barnsley Fern\n'))
+choice = int(input('Press\n1.Sierpinski Triangle\n2.Square Fractal\n3.Pentagon Fractal\n4.Vicsek Fractal\n5.Hexagonal Fractal\n6.Another Square Fractal\n7.Barnsley Fern\n8.Another Penatgon Fractal\n'))
 iters = int(input('Enter Iterations\n'))
 turtle.tracer(args.Animation)
 if choice == 1:
@@ -268,6 +276,8 @@ elif choice == 6:
 	chaosGameSquare1(iters,0.5)
 elif choice == 7:
 	barnsleyFern(iters)
+elif choice == 8:
+	chaosGamePentagon1(iters,0.5)
 else:
 	print('Invalid input OR window closed')
 
