@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-a", "--Animation",type = bool,default = False, help = "Animate or not to Animate")
 args = parser.parse_args()
 if args.Animation == True:
-	dot_size = 4
+	dot_size = 3
 else:
 	dot_size = 2 
 
@@ -251,7 +251,7 @@ def barnsleyFern(iterations:int):
 
 #Driver
 
-choice = int(input('Press\n1.Sierpinski Triangle\n2.Square Fractal\n3.Pentagon Fractal\n4.Viscek Fractal\n5.Hexagonal Fractal\n6.Another Square Fractal\n7.Barnsley Fern\n'))
+choice = int(input('Press\n1.Sierpinski Triangle\n2.Square Fractal\n3.Pentagon Fractal\n4.Vicsek Fractal\n5.Hexagonal Fractal\n6.Another Square Fractal\n7.Barnsley Fern\n'))
 iters = int(input('Enter Iterations\n'))
 turtle.tracer(args.Animation)
 if choice == 1:
