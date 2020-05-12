@@ -8,9 +8,13 @@
 - argparse
 
 ### Instructions
+
 Animation is disabled by default
+
 In order to run with animations do:
+
 `python3 chaos_game.py -a True`
+
 When animations is True the drawing process is slowed.
 
 ### Seirpinski Triangle and Viscek Fractal
