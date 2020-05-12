@@ -11,11 +11,11 @@
 
 Animation is disabled by default.
 
-In order to run with animations do
+In order to run with animations :
 
 `python3 chaos_game.py -a True`
 
-NOTE:When animations is True the drawing process is slowed.
+NOTE : When animations is True the drawing process is sigbificantly slowed.
 
 ### Seirpinski Triangle and Vicsek Fractal
 <p float="left">
