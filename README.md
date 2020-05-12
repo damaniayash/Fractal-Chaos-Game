@@ -40,8 +40,8 @@ NOTE:When animations is True the drawing process is slowed.
 ### Hexagon Fractal and Barnsley Fern
 
 <p float="left">
-  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Hexagon.PNG" width=400 height=400/>
-  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/fern.PNG" width=400 height=400/>
+  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Hexagon.PNG" width=450 height=400/>
+  <img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/fern.PNG" width=450 height=400/>
 </p>
 
 
