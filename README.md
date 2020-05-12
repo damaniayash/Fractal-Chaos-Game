@@ -7,5 +7,5 @@
 - turtle
 - argparse
 ### Seirpinski Triangle
-<img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Triangle.PNG">
+<img src="https://github.com/damaniayash/Fractal-Chaos-Game/blob/master/images/Triangle.PNG" width=400 height=400>
 
