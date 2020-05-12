@@ -12,7 +12,7 @@ import argparse
 import random
 
 parser = argparse.ArgumentParser() 
-parser.add_argument("-a", "--Animation",type = bool,default = False, help = "Animate or not to Animate")
+parser.add_argument("-a", "--Animation", type = bool, default = False, help = "Animate or not to Animate")
 args = parser.parse_args()
 if args.Animation == True:
 	dot_size = 3
